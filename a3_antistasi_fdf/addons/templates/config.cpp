@@ -4,9 +4,9 @@ class CfgPatches {
     class ADDON {
         name = COMPONENT_NAME;
         units[] = {};
-        weapons[] = {};
+        weapons[] = {"rk62mod3"};
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {QDOUBLES(PREFIX,core), "A3_Characters_F"};
+        requiredAddons[] = {QDOUBLES(PREFIX,core), "A3_Characters_F","A3_Weapons_F_Enoch_Rifles_AK12"};
         author = AUTHOR;
         authors[] = { AUTHORS };
         authorUrl = "";
@@ -22,6 +22,15 @@ class cfgVehicles {
 	class SoldierGB;
 	class I_G_Soldier_base_F : SoldierGB {
 		genericNames = "ffp_finnish_names"; 	
+	};
+};
+
+class cfgWeapons {
+	class arifle_AK12_lush_F;
+	class rk62mod3 : arifle_AK12_lush_F {
+		displayname="RK62 Mod 3";
+		descriptionshort="RK62 Mod 3";
+		displaynameshort="RK62 Mod 3";
 	};
 };
 

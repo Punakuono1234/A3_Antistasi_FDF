@@ -6,11 +6,11 @@
 private _warLevelUpgrades = [
 	[], // Level 1 - should be left to default equipment
 	[["ffp_rk62",-1], ["ffp_30Rnd_762x39",-1]], // Level 2
-	[["ffp_66kes12",-1],["rhs_1PN138",-1], ["ffp_kvkk",-1], ["ffp_100Rnd_KVKK_mag",-1], ["murshun_cigs_lighter",-1], ["murshun_cigs_cigpack",-1], ["ffp_m05w_helmet_peltor",-1]], // Level 3
+	[["ffp_66kes12",-1],["rhs_1PN138",-1], ["ffp_kvkk",-1], ["ffp_100Rnd_KVKK_mag",-1], ["murshun_cigs_lighter",-1], ["murshun_cigs_cigpack",-1], ["ffp_m05w_helmet_peltor",-1],["B_AssaultPack_rgr",-1]], // Level 3
 	[["ffp_rk95",-1], ["ffp_pp09",-1], ["ffp_sm_65_98_mag",-1], ["ffp_telamiina_mag", -1], ["ffp_66kes12_rak",-1]], // Level 4
-	[["ffp_kk_pkm",-1], ["ffp_100Rnd_762x54_PKM",-1], ["ffp_100Rnd_762x54_PKM_tracer",-1], ["V_PlateCarrier2_rgr_noflag_F",-1], ["Rangefinder",-1]], // Level 5
-	[["ffp_TKiv2000",-1], ["ffp_optic_TKiv2000",-1], ["ffp_5Rnd_TKiv2000_mag",-1], ["ffp_ta11_3d",-1], ["sfp_ghillie_uniform",-1], ["rhsusf_ANPVS_15",-1]], // Level 6
-	[["sfp_ag90_base",10], ["sfp_10Rnd_127x99_ag90",50], ["optic_LRPS",-1], ["ffp_orbiter_bag",6], ["ffp_orbiter_ramp_bag",6], ["i_uavterminal",-1], ["V_CarrierRigKBT_01_heavy_Olive_F",-1]], // Level 7
+	[["ffp_kk_pkm",-1], ["ffp_100Rnd_762x54_PKM",-1], ["ffp_100Rnd_762x54_PKM_tracer",-1], ["V_PlateCarrier2_rgr_noflag_F",-1], ["Rangefinder",-1],["B_Kitbag_rgr",-1]], // Level 5
+	[["ffp_TKiv2000",-1], ["ffp_optic_TKiv2000",-1], ["ffp_5Rnd_TKiv2000_mag",-1], ["ffp_ta11_3d",-1], ["sfp_ghillie_uniform",-1], ["rhsusf_ANPVS_15",-1],["rk62mod3",-1]], // Level 6
+	[["sfp_ag90_base",10], ["sfp_10Rnd_127x99_ag90",50], ["optic_LRPS",-1], ["ffp_orbiter_bag",6], ["ffp_orbiter_ramp_bag",6], ["i_uavterminal",-1], ["V_CarrierRigKBT_01_heavy_Olive_F",-1],["B_Carryall_mcamo",-1]], // Level 7
 	[["ffp_nlaw",-1], ["ffp_nlaw_mag",-1], ["ffp_ito15",-1], ["ffp_ito15_mag",-1]], // Level 8
 	[], // Level 9
 	[] // Level 10
